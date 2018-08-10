@@ -1,4 +1,4 @@
-package com.copia.barneydev.weatherapp.adapter
+package com.copia.barneydev.weatherapp.ui.adapter
 
 import android.support.v7.widget.RecyclerView
 import android.view.ViewGroup
@@ -17,8 +17,7 @@ class ForecastListAdapter(val items: List<String>) : RecyclerView.Adapter<Foreca
     override fun getItemCount(): Int = items.size
 
 //    override fun getItemCount(): Int {
-          // return items.size
-//        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+//        return items.size
 //    }
 
     class ViewHolder(val textView: TextView): RecyclerView.ViewHolder(textView)
